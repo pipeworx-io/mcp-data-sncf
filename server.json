@@ -3,7 +3,7 @@
   "name": "io.github.pipeworx-io/data-sncf",
   "title": "Data Sncf",
   "description": "SNCF Open Data (ressources.data.sncf.com) — OpenDataSoft MCP.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "websiteUrl": "https://pipeworx.io/packs/data-sncf",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-data-sncf",

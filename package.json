@@ -1,20 +1,32 @@
 {
   "name": "@pipeworx/mcp-data-sncf",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "SNCF Open Data (ressources.data.sncf.com) — OpenDataSoft MCP.",
   "type": "module",
   "main": "src/index.ts",
   "types": "src/index.ts",
+  "bin": {
+    "mcp-data-sncf": "bin/cli.js"
+  },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "data-sncf"],
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/pipeworx-io/mcp-data-sncf"
+    "url": "git+https://github.com/pipeworx-io/mcp-data-sncf.git"
   },
   "scripts": {
     "typecheck": "tsc --noEmit"
   },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "tsx": "^4.19.0"
+  },
   "devDependencies": {
-    "typescript": "^5.7.0"
+    "typescript": "^5.9.3",
+    "@cloudflare/workers-types": "^4.20260405.1"
+  },
+  "pipeworx": {
+    "sourceHash": "v1-49e617b160b6ed4fafc4e60e93ea0359c49c9412dc1f3f3d55c2c2009baa7b59",
+    "sourceCommit": "839ab210d969ef7f822cd747ea516f6bb49e9231"
   }
 }
