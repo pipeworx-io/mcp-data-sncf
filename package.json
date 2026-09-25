@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-data-sncf",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "SNCF Open Data (ressources.data.sncf.com) — OpenDataSoft MCP.",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-49e617b160b6ed4fafc4e60e93ea0359c49c9412dc1f3f3d55c2c2009baa7b59",
-    "sourceCommit": "839ab210d969ef7f822cd747ea516f6bb49e9231"
+    "sourceHash": "v1-0afc65759b71dd801d054cf154283c3ffd623e29dce1b9ae47f20d6d82148fb2",
+    "sourceCommit": "56d3c46c09bb3078ffdbdbca992a93f406bcd382"
   }
 }
